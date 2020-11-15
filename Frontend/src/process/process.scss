@@ -1,0 +1,60 @@
+@import "../globals";
+.process {
+  width: 500px;
+  min-height: 550px;
+  margin-right: 10rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2rem;
+  h4 {
+    margin-bottom: 2rem;
+    font-weight: 300;
+    color: white;
+    span {
+      color: yellow;
+    }
+  }
+  .incomming {
+    width: 100%;
+    h4 {
+      color: white;
+      font-weight: 300;
+    }
+    p {
+      margin-top: 0.5rem;
+      background-color: #A9CCE3;
+      padding: 1.2rem;
+      font-size: 1rem;
+      border-radius: 5px;
+      overflow: hidden;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+    }
+  }
+  button {
+    width: 30%;
+    border: none;
+    background-color: #E74C3C;
+    color: white;
+    padding: 10px;
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .crypt {
+    width: 100%;
+    h4 {
+      color: white;
+      font-weight: 300;
+    }
+    p {
+      margin-top: 0.5rem;
+      background-color: #A9CCE3;
+      padding: 1.2rem;
+      font-size: 1rem;
+      border-radius: 5px;
+    }
+  }
+}
